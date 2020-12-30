@@ -1,0 +1,30 @@
+{
+    "name": "",
+    "description": "Laravel 7 / 8 Shopping Cart",
+    "keywords": ["laravel",
+        "shopping ", "cart"],
+    "type": "n",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rusiru Ashan Kulathunga",
+            "email": "rusiruofficial@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Alvinz97\\": "src/Alvinz97"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alvinz97\\Cart\\CartServiceProvider"
+            ]
+        }
+    }
+}
